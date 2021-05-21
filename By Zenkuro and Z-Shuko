@@ -4,7 +4,7 @@ end
 wait(2.5)
  game:GetService("StarterGui"):SetCore("SendNotification", {
 Title = "GUI by Zenkuro";
-Text = "Scripts by Z-Shuko";
+Text = "";
  })
  wait(1.5)
   game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2213,6 +2213,9 @@ end
 coroutine.wrap(VIHH_fake_script)()
 wait(2)
  game:GetService("StarterGui"):SetCore("SendNotification", {
-Title = "Loaded";
-Text = "";
+Title = "Press F9";
+Text = "For Scripters";
  })
+ print("Scripters")
+ print("Z-Shuko")
+ print("Zenkuro")
