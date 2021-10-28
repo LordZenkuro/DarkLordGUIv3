@@ -1660,7 +1660,7 @@ dripscript.MouseButton1Down:connect(function()
 	game:GetService("RunService").RenderStepped:connect(function()
 		local part = game.Players.LocalPlayer.Character
 		local basetemplate = "http://www.roblox.com/asset/?id="
-		local shirt = 6176285240
+		local shirt = 6202682266
 		local pants = 6190358925
 		local h = part:findFirstChild("Shirt")
 		if h ~= nil then
